@@ -211,7 +211,7 @@ mod serialization;
 mod stack;
 mod subscriber;
 mod sys_limits;
-mod threadpool;
+pub mod threadpool;
 pub mod transaction;
 mod tree;
 mod varint;
